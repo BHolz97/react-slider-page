@@ -67,9 +67,9 @@ export default class SliderPage extends React.Component {
   onMouseWheel = e => {
     const direction = e.wheelDelta || e.deltaY
     if (direction > 0) {
-      this.changeSlide(-1)
-    } else {
       this.changeSlide(1)
+    } else {
+      this.changeSlide(-1)
     }
   }
 
